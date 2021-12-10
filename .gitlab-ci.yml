@@ -1,0 +1,13 @@
+stages:
+  - build
+  - deploy
+
+build:
+  stage: build
+  script:
+      - echo This is the Test POC CI/CD Pipeline
+
+deploy:
+  stage: deploy
+  script:
+      - echo This is the Test POC CI/CD Pipeline Deploy
